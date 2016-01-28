@@ -3,7 +3,7 @@ var Enemy = function() {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
     this.x = Math.random() * 505;
-    this.y = 63 + (Math.floor(Math.random() * 2) * 83);
+    this.y = 63 + (Math.round(Math.random() * 2) * 83);
     this.speed = (Math.random() * 125) + 50;
     this.sprite = 'images/enemy-bug.png';
 };
